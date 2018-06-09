@@ -1,0 +1,11 @@
+// overide Bootstrap variables
+//  - look into bootstrap/bootstrap/_variables.scss
+//  - don't change anything in original files
+//  - instead just copy the variable name here and assing your desired value
+
+// import Bootstrap
+@import 'bootstrap/bootstrap';
+
+.gif_main{
+  margin-top: 20vh;
+}

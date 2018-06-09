@@ -1,0 +1,1 @@
+setInterval("text.style.opacity^=1",200)

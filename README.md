@@ -1,7 +1,10 @@
 # ongaku suki desu
 "ongaku suki desu" is a experimental music payment project for [Colony Hackathon](https://github.com/JoinColony/colonyHackathon). We aim to reward all the creative musicians fairly and automatically with the power of distributed ledger. 
 
-## Development
+## Set up local colony network environment for testing
+Follow the [instruction](https://joincolony.github.io/colonyjs/docs-get-started/) and set up the environment.
+
+## Development with gulp
 From root directory of the project run ``npm install`` 
 
 To start a development server run ``gulp`` from the command line.

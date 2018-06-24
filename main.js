@@ -95,7 +95,8 @@ const main = async (OriginalCreator1, OriginalCreator2, OriginalCreator3, musicI
   await colonyClient.setTaskManagerPayout.startOperation({ 
     taskId: taskId,
     token: tokenAddress,
-    amount: originalCreator0Payout})
+    amount: originalCreator0Payout
+  });
 
 
   // finalise task 

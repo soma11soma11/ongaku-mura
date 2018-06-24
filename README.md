@@ -5,6 +5,10 @@ ongaku mura
 
 Following the instruction [here](https://docs.colony.io/colonyjs/docs-get-started/), set up Colony Network in local environment.
 
+``
+git clone --recursive https://github.com/JoinColony/colonyNetwork.git
+``
+
 ## run 
 
 

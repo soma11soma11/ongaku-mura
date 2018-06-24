@@ -75,24 +75,24 @@ const main = async (OriginalCreator1, OriginalCreator2, OriginalCreator3, musicI
   // Set the workers
   await colonyClient.setTaskRoleUser.send({
     taskId: taskId,
-    role: 'WORKER',
+    role: 'MANAGER',
     user: walletAddressOriginalCreator1,
   });
 
   await colonyClient.setTaskRoleUser.send({
     taskId: taskId,
-    role: 'WORKER',
+    role: 'MANAGER',
     user: walletAddressOriginalCreator2,
   });
 
   await colonyClient.setTaskRoleUser.send({
     taskId: taskId,
-    role: 'WORKER',
+    role: 'MANAGER',
     user: walletAddressOriginalCreator3,
   });
 
   // set licence fee
-  await colonyClient.setTaskWorkerPayout.startOperation({ 
+  await colonyClient.setTaskManagerPayout.startOperation({ 
     taskId: taskId,
     token: tokenAddress,
     amount: originalCreator0Payout})
@@ -105,19 +105,19 @@ const main = async (OriginalCreator1, OriginalCreator2, OriginalCreator3, musicI
 
   await colonyClient.claimPayout.send({
     taskId: 1,
-    role: 'WORKER',
+    role: 'MANAGER',
     token: walletAddressOriginalCreator0,
   });
 
   await colonyClient.claimPayout.send({
     taskId: 1,
-    role: 'WORKER',
+    role: 'MANAGER',
     token: walletAddressOriginalCreator1,
   });
 
   await colonyClient.claimPayout.send({
     taskId: 1,
-    role: 'WORKER',
+    role: 'MANAGER',
     token: walletAddressOriginalCreator2,
   });
 

@@ -5,8 +5,7 @@ ongaku mura
 
 Following the instruction [here](https://docs.colony.io/colonyjs/docs-get-started/), set up Colony Network in local environment in the directory of your choice.
 
-#### Clone the latest version of the contracts:
-
+To clone the latest version of the contracts, run
 ``
 git clone --recursive https://github.com/JoinColony/colonyNetwork.git
 ``

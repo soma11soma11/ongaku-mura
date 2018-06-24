@@ -45,7 +45,9 @@ yarn global add trufflepig
 
 ``
 ./node_modules/.bin/truffle migrate --reset --compile-all
+``
 
+``
 trufflepig --ganacheKeyFile ganache-accounts.json
 ``
 

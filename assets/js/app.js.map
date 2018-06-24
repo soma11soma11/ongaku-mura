@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.js"],"names":["setInterval"],"mappings":"yBAAAA,YAAY,wBAAwB","file":"app.js","sourcesContent":["setInterval(\"text.style.opacity^=1\",200)"]}

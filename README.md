@@ -1,5 +1,5 @@
-# ongaku-mura
-ongaku mura
+# Ongaku mura
+Ongaku mura (music village in Japanese) is a decentralized application that serves as a music platform where creators of the mashup musics can directly negotiate with original creators of sampled musics regarding the licensing fees.
 
 ## setup Colony Network in local environment
 

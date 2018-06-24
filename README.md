@@ -3,7 +3,7 @@ ongaku mura
 
 ## setup Colony Network in local environment
 
-Following the instruction [here](https://docs.colony.io/colonyjs/docs-get-started/), set up Colony Network in local environment.
+Following the instruction [here](https://docs.colony.io/colonyjs/docs-get-started/), set up Colony Network in local environment in the directory of your choice.
 
 #### Clone the latest version of the contracts:
 

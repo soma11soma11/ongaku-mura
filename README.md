@@ -53,6 +53,10 @@ trufflepig --ganacheKeyFile ganache-accounts.json
 
 ## run 
 
-
+``
 npm install
+``
+
+``
 node main.js
+``

@@ -1,5 +1,6 @@
 # Ongaku mura
 Ongaku mura (music village in Japanese) is a decentralized application that serves as a music platform where creators of the mashup musics can directly negotiate with original creators of sampled musics regarding the licensing fees.
+If you are interested, the details can be found [here](https://medium.com/@somasuzuki/ongaku-mura-colony-hackathon-f2a2673e0b50) 
 
 ## setup Colony Network in local environment
 
